@@ -15,6 +15,6 @@ public class Test {
         System.out.println("Tien lai hang thang: " + account.getAnnualInterestRate());
 
         System.out.println("Ngay tao: " + account.getDateCreated());
-
+        System.out.println();
     }
 }
