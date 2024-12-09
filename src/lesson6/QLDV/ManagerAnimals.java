@@ -82,7 +82,7 @@ o Monkey: in ra “The monkey is climbing trees.”
 
 a) có 1 danh sách các động vậy Lion,Elephant,Monkey, cho phép người dùng nhập vào n, chính là tổng số lượng các động vật mà sở thú quản lý
 
-b) nhập vào danh sách các động vật củ sở thú và cho phép người dùng lựa chọn
+b) nhập vào danh sách các động vật của sở thú và cho phép người dùng lựa chọn
 
 1. nhập vào Lion
 
