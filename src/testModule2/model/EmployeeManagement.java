@@ -58,12 +58,11 @@ public class EmployeeManagement {
         System.out.println("----------------------------------");
     }
 
-    // Tìm nhân viên theo ID
+
     public Employee findEmployeeById(String employeeId) {
         return employeeManagement.get(employeeId.trim());
     }
 
-    // Hiển thị danh sách nhân viên
     public void showEmployees() {
         if (employeeManagement.isEmpty()) {
             System.out.println("Không có nhân viên trong hệ thống.");
