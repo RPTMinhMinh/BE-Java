@@ -67,7 +67,7 @@ public class Account {
 
     public void withdraw(double amount) {
         try{
-            if(amount < this.balance){
+            if(amount <= this.balance){
                 this.balance -= amount;
                 System.out.println(this.accountHolder + " withdraw amount: -" + amount);
                 Transaction transaction = new Transaction("Withdraw",this,employeeInCharge,"withdraw",amount);
